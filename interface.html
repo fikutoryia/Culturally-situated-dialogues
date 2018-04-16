@@ -1,0 +1,39 @@
+<html>
+   <link rel="stylesheet" type="text/css" href="design.css">
+    <head>
+        <title>Sample Web Form</title>
+    </head>
+<body>
+
+
+
+<div id="boxed">
+  
+  
+  
+<form action="myprocessingscript.php" method="POST">
+<h2>Choose one or more of the available options that represent the current mental state of the System:</h2>
+  <input type="checkbox" name="mentalState[]" value="Knows user culture"> Knows User Culture<br>
+  <input type="checkbox" name="mentalState[]" value="Knows concept"> Knows Concept<br>
+    <input type="checkbox" name="mentalState[]" value="Knows that user knows concept"> Knows that User Knows Concept<br>
+
+
+<h2>Choose the corresponding action:</h2>
+  <input type="checkbox" name="action" value="cultureIdentif"> Culture Identification<br>
+  <input type="checkbox" name="action" value="conceptIdentif"> Concept Identification<br>
+
+
+<h2>Choose one or more of the available options that represent the current mental state of the System following the action:</h2>
+
+  <input type="checkbox" name="mentalState2[]" value="Knows user culture"> Knows User Culture<br>
+  <input type="checkbox" name="mentalState2[]" value="Knows concept"> Knows Concept<br>
+  <input type="checkbox" name="mentalState2[]" value="Knows that user knows concept"> Knows that User Knows Concept<br>
+  </br>
+  
+  <div id="bouton">
+  <input type="submit" name="nextObservation" value="Next Observation" class="bouton"> <input type="submit" name="reinfButton" value="Reinforcement learning results" class="bouton">
+  </div>
+</div>
+</body>
+</html>
+

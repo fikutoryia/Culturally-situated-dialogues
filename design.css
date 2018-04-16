@@ -1,0 +1,116 @@
+body {
+    
+    /* background:linear-gradient(141deg, #0fb8ad 0%, #1fc8db 51%, #2cb5e8 75%); 
+    #92B989
+    linear-gradient(#89B9A0,#000)
+    nice red: c23b22
+    */
+    
+    background:#89B9A0;
+    font-family:arial, Courier New, Courier, monospace;
+    color: #303331;
+    margin:0px;
+    overflow:hidden;
+    
+}
+body#replybody {
+    background:white;
+    
+}
+a:link { color: #ff8080 }
+a:visited { color: #ff0000 }
+a:active { color: #a05050 }
+case1:link { background: green }
+p:first-line { margin-left: 25px; }
+
+ul ul li {
+     font-size: x-large; 
+     text-decoration: italic; }
+.funkyclass {
+     font: 36pt/40pt courier;
+     font-variant: small-caps;
+     border: thick dashed blue }
+#tagid1 {
+     padding: 20px; 
+     border: 20px groove #ffffff }
+.class1, #tagid2 { font-family: 'comic sans ms', fantasy; color: rgb(100%,100%,0%) }
+
+p.special {
+     font: 12pt/14pt sans-serif;
+     margin: 5px 0px 2px 25px;
+     border: medium dashed #ff0000;
+     background: white url(http://www.foo.com/image.gif) repeat-x fixed top right }
+blockquote {
+     margin-left: 2cm; 
+     color: #00ff00 }
+.part1 {
+     font-size: xx-large; 
+     color: #808000 }
+
+     
+h1 {
+     font-size: medium;
+     color: black ! important ;
+     text-align:center;
+}
+h2 {
+     font-size: medium;
+     color: black ! important ;
+     font-style: italic;
+}
+
+#boxed {
+    border: 0.5px solid grey;
+    padding:20px;
+    position:absolute;
+    width:900px;
+    left:50%;
+    margin-left:-450px;
+    margin-top:0px;
+    background:white;
+    height:100%;
+    padding-top:100px;
+} 
+
+#boxedframe {
+    border: 0.5px solid grey;
+    padding:20px;
+    position:absolute;
+    width:900px;
+    left:50%;
+    margin-left:-450px;
+    margin-top:350px;
+    display:none;
+    background:white;
+}
+
+input.bouton {
+    
+    background:#ccc;
+    color:black;
+    padding:10px;
+    border:0px;
+    float:center;
+    margin:2px;
+    
+}
+div#bouton {
+    
+    text-align:center;
+    
+}
+
+#results {
+    
+    width:900px;
+    height:50px;
+    border:0px;
+    overflow:hidden;
+    
+}
+
+#reply1 {
+    
+    text-align:center;
+    
+}

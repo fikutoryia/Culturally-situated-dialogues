@@ -1,0 +1,30 @@
+<html>
+    <head>
+       <link rel="stylesheet" type="text/css" href="design.css">
+        <title>Sample Web Form</title>
+    </head>
+<body>
+<div id="boxed">
+<h1>Fill Out This Form</h1>
+
+
+<form action="woz.php" method="POST" target=results>
+<h2>Choose one or more of the available options that represent your current knowledge:</h2>
+  <input type="checkbox" name="mentalState[]" value="Knows user culture"> I Know the User Culture<br>
+  <input type="checkbox" name="mentalState[]" value="Knows concept"> I Know the associated Concept<br>
+    <input type="checkbox" name="mentalState[]" value="Knows that user knows concept"> I Know that the User Knows Concept<br>
+
+  <div id=bouton>
+  <input type="submit" name="helpMe" value="Help me take an action!" class="bouton" onclick="document.getElementById('boxedframe').style.display='block'">
+  </div>
+  </form>
+</div>
+
+<div id="boxedframe">
+  
+  <iframe name=results id=results src=""></iframe>
+  
+</div>
+
+</body>
+</html>
